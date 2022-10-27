@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/952509c1de.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <!-- Encabezado global -->
+
+        <!-- Utilizar etiqueta <div> para maquetar -->
+        <div class="home-wrapper">
+
+            <header>
+                <!--  -->
+                <div class="container">
+                    <a href="index.html">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                    <nav>
+                        <!-- insertar enlaces de ancla e menu  -->
+                        <a href="#Home" class="btn btn-warning">Home</a>
+                        <a href="#novedades">novedades</a>
+                        <a href="#categoria">categoria</a>
+                        <a href="#contacto">contacto</a>
+                        <!-- enlaces externos  -->
+                        <a href="https://librerianacional.com/" target="_blank" rel="noopener
+                noreferrer">Librería</a>
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fa fa-whatsapp"></i>
+                        </a>
+                        <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+
+
+
+                    </nav>
+                </div>
+            </header>
+            <section class="container" id="home">
+                <h1>Books</h1>
+                <a href="#" class="btn btn-danger">Compra tu libro</a>
+                <p>
+                    promociones en todo el mes de hallowen.
+                </p>
+            </section>
+
+        </div>
+        <section class="container" id="novedades">
+            <h2>Novedades</h2>
+            <div class="box">
+                <img src="images/ux-ui.png" alt="">
+                <h3>ux-ui</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sunt eveniet laborum delectus consectetur? Aut est distinctio, error corrupti aliquid quisquam. Ipsam ab aut amet, quas accusamus debitis exercitationem et? 
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/web-design.png" alt="">
+                <h3>web Design</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem amet labore laudantium adipisci quas porro nam maxime sequi ullam dolor soluta consectetur cumque, beatae aliquam, vel voluptatibus impedit voluptate.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/web-development.png" alt="">
+                <h3>web Development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a eius non ratione provident, eveniet reprehenderit ducimus? Iusto culpa aliquid illum cumque similique eaque incidunt totam, odio cupiditate eligendi dolores!
+                </p>
+            </div>
+        </section>
+
+        <section class="container" id="categoria">
+            <h2>Categoria</h2>
+            <div class="box">
+                <img src="images/ux-ui.png" alt="">
+                <h3>ux</h3>
+                <p>
+                    sera un categoria para niños donde ellos por medio de imagenes y muchos colores desarrollaran muchas de sus habilidades 
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/ux-ui.png" alt="">
+                <h3>ux</h3>
+                <p>
+                    sera un categoria para niños donde ellos por medio de imagenes y muchos colores desarrollaran muchas de sus
+                    habilidades
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/ux-ui.png" alt="">
+                <h3>ux</h3>
+                <p>
+                    sera un categoria para niños donde ellos por medio de imagenes y muchos colores desarrollaran muchas de sus
+                    habilidades
+                </p>
+            </div>
+        </section>
+
+        <!--Acá vamos a poner la sección de Contactos.-->
+
+        <section id="contacto">
+            <h2> 
+                contacto 
+            </h2>
+
+            <form action="mailto:michelmisas@hotmail.com" method="post">
+                <div>
+                    <input type="text" placeholder="escribe tu nombre" required>
+                </div>
+
+                <div>
+                    <input type="text" placeholder="escribe tu apellido" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="escribe tu asunto" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="escribe tu correo electronico" required>
+                </div>
+
+                <div>
+                    <select name="ciudad" id="">
+                        <option value="Seleccionar">
+                            Seleccionar
+                        </option>
+
+                        <option value="Pereira">
+                            Pereira
+                        </option>
+
+                        <option value="Cartagena">
+                            Cartagena
+                        </option>
+
+                        <option value="Medellín">
+                            Medellín
+                        </option>
+
+                        <option value="Cali">
+                            Cali
+                        </option>
+                    </select>
+                </div>
+
+                <div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-primary">Borrar</button>
+                </div>
+            </form>
+        </section>
+
+
+        <section class="container" id="videos">
+            
+        <iframe width="100%" height="720" src="https://www.youtube.com/embed/V_-ztSESZA4"
+            title="Audiolibros infantiles educativos - Cuento narrado para niños - Audiocuento sobre el topo Tito"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </section>
+
+        <!-- ubicacion o mapa -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15864.155429427683!2d-75.56260345!3d6.258612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1665684422374!5m2!1ses!2sco"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <!-- footer o pie de pagina -->
+        <footer class="cover">
+            &copy;2022. BOOKSJG Todos los derechos reservados diseño por: <span>michel misas areiza</span>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    </body>
+    
+</html>
+
+    
